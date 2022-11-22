@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2d6157-2a11-44b4-af15-a6b83a322287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/hviezdicky/Hviezdicky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/hviezdicky/Pokus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/ulohy/hviezdicky/Hviezdicky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/hviezdicky/Hviezdicky.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +42,22 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Hviezdicky">
     <configuration name="Hviezdicky" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sk.ulohy.hviezdicky.Hviezdicky" />
+      <module name="ulohy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sk.ulohy.hviezdicky.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pokus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.ulohy.hviezdicky.Pokus" />
       <module name="ulohy" />
       <extension name="coverage">
         <pattern>
@@ -59,6 +72,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Hviezdicky" />
+        <item itemvalue="Application.Pokus" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669045374686</updated>
       <workItem from="1669045377362" duration="2039000" />
-      <workItem from="1669107858164" duration="1007000" />
+      <workItem from="1669107858164" duration="3506000" />
     </task>
     <servers />
   </component>
