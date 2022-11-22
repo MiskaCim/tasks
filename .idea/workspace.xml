@@ -56,8 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pokus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.ulohy.hviezdicky.Pokus" />
+    <configuration name="PrikladNet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.ulohy.hviezdicky.PrikladNet" />
       <module name="ulohy" />
       <extension name="coverage">
         <pattern>
@@ -72,7 +72,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Hviezdicky" />
-        <item itemvalue="Application.Pokus" />
+        <item itemvalue="Application.PrikladNet" />
       </list>
     </recent_temporary>
   </component>

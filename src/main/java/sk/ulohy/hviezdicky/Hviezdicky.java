@@ -13,7 +13,16 @@ public class Hviezdicky {
     }
 
     private static void writeOutStars() {
+        System.out.println("Figure: ");
 
+        for (int i = 0; i < rows; i++){
+            System.out.print(" * ");
+
+            for (int j = 0; j < col-1; j++){
+                System.out.print(" * ");
+            }
+            System.out.println();
+        }
     }
 
     private static void stars() {
@@ -28,17 +37,6 @@ public class Hviezdicky {
 
         col = Integer.parseInt(noColumns.nextLine());
 
-        System.out.println("Number of rows: " + rows + "\nNumber of columns: " + col);
-
-        System.out.println("Figure: ");
-
-        for (int i = 0; i < rows; i++){
-            System.out.print(" * ");
-
-            for (int j = 0; j < col-1; j++){
-                System.out.print(" * ");
-            }
-            System.out.println();
-        }
+        System.out.println("Number of rows: " + rows + "\nNumber of columns: " + col + "\n");
     }
 }
