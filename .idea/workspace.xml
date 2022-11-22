@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d2d6157-2a11-44b4-af15-a6b83a322287" name="Changes" comment="" />
+    <list default="true" id="3d2d6157-2a11-44b4-af15-a6b83a322287" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/ulohy/hviezdicky/Hviezdicky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/hviezdicky/Hviezdicky.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JavaAkademia/Projekty/IdeaProjects/Learning",
+    "last_opened_file_path": "D:/JavaAkademia/Projekty/IdeaProjects/GameStudioMaven",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -81,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669045374686</updated>
       <workItem from="1669045377362" duration="2039000" />
-      <workItem from="1669107858164" duration="3832000" />
+      <workItem from="1669107858164" duration="8653000" />
     </task>
     <servers />
   </component>
