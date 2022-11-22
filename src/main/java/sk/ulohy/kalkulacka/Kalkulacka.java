@@ -6,19 +6,28 @@ import java.util.Scanner;
 public class Kalkulacka {
 
     private static Scanner scanner = new Scanner(System.in);
-    private static String numOperation, option;
+    private static String numOperation, option, line;
     private static double num1, num2;
 
     private static double result;
 
     public static void main(String[] args) {
-        run();
+        do {
+            System.out.println("***\nDo you want to calculate? [press anything to continue or X to exit]");
+            line = scanner.nextLine().toUpperCase();
+
+            if (!"X".equals(line)) {
+                run();
+            }
+        } while (!"X".equals(line));
+            System.out.println("End");
+            System.exit(0);
     }
 
     private static void run() {
         try {
-            do {
-                System.out.println("Write number and click enter\n then choose operation you want to execute (+, -, * or /), click enter \n and write another number \n or press X for EXIT: ");
+// Write number and click enter\n then choose operation you want to execute (+, -, * or /), click enter \n and write another number \n or press X for EXIT: "
+                System.out.println("Write: \n number \n operation (+, -, * or /) \n number");
                 num1 = scanner.nextDouble();
 
                 Scanner numOperation = new Scanner(System.in);
@@ -50,12 +59,8 @@ public class Kalkulacka {
                         break;
                 }
 
-            } while (!"X".equals(option) || "x".equals(option));
-            System.out.println("End");
-            System.exit(0);
-
         } catch (Exception e) {
-            System.out.println("Something wrong!");
+            System.out.println("Wrong input!");
 
         }
     }
