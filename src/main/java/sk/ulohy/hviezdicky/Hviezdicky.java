@@ -15,17 +15,18 @@ public class Hviezdicky {
 
     private static void run() {
         try {
-            System.out.println("Do you want to print stars? [click C to continue or X to exit]");
-            decision = scanner.nextLine().toUpperCase();
+            do {
+                System.out.println("Do you want to print stars? [click C to continue or X to exit]");
+                decision = scanner.nextLine().toUpperCase();
 
-            if ("C".equals(decision)) {
-                stars();
-            } else if ("X".equals(decision)) {
-                System.exit(0);
-            } else {
-                System.out.println("Choose again!");
-                run();
-            }
+                if ("C".equals(decision)) {
+                    stars();
+                }
+
+            } while (!"X".equals(decision));
+
+            System.out.println("End");
+            System.exit(0);
 
         } catch (Exception e) {
             System.out.println("Something wrong!");
@@ -53,11 +54,9 @@ public class Hviezdicky {
                 }
                 System.out.println();
             }
-            run();
 
         } catch (Exception e) {
             System.out.println("Something wrong!");
-            run();
         }
     }
 
