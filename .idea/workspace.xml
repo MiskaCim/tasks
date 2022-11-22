@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2d6157-2a11-44b4-af15-a6b83a322287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/cenaPaliva/CenaPaliva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/priemerZnamok/PriemerZnamok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/pyramida/Pyramida.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/ulohy/kalkulacka/Kalkulacka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/kalkulacka/Kalkulacka.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Kalkulacka">
+  <component name="RunManager" selected="Application.PriemerZnamok">
     <configuration name="CenaPaliva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sk.ulohy.cenaPaliva.CenaPaliva" />
       <module name="ulohy" />
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pokus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.ulohy.kalkulacka.Pokus" />
+    <configuration name="PriemerZnamok" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.ulohy.priemerZnamok.PriemerZnamok" />
       <module name="ulohy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sk.ulohy.kalkulacka.*" />
+          <option name="PATTERN" value="sk.ulohy.priemerZnamok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrikladNet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.ulohy.hviezdicky.PrikladNet" />
+    <configuration name="Pyramida" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.ulohy.pyramida.Pyramida" />
       <module name="ulohy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sk.ulohy.hviezdicky.*" />
+          <option name="PATTERN" value="sk.ulohy.pyramida.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PriemerZnamok" />
+        <item itemvalue="Application.Pyramida" />
         <item itemvalue="Application.Kalkulacka" />
         <item itemvalue="Application.CenaPaliva" />
         <item itemvalue="Application.Hviezdicky" />
-        <item itemvalue="Application.Pokus" />
-        <item itemvalue="Application.PrikladNet" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +128,8 @@
       <updated>1669045374686</updated>
       <workItem from="1669045377362" duration="2039000" />
       <workItem from="1669107858164" duration="15930000" />
-      <workItem from="1669130993404" duration="6549000" />
+      <workItem from="1669130993404" duration="8521000" />
+      <workItem from="1669141147442" duration="3649000" />
     </task>
     <servers />
   </component>
