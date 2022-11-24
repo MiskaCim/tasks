@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2d6157-2a11-44b4-af15-a6b83a322287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/birthday/Birthday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/parneNeparneCisla/ParneNeparneCisla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/zoradeniePrvkovVPoli/zoradeniePrvkov.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/ulohy/pyramida/Pyramida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/pyramida/Pyramida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/ulohy/birthday/Birthday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/birthday/Birthday.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +37,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JavaAkademia/Projekty/FINAL The newest - presented - new pokusy/tsystems-academy-II-FinalProject-LZM-main/projekt",
+    "last_opened_file_path": "D:/JavaAkademia/Projekty/IdeaProjects/GameStudioMaven",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.zoradeniePrvkov">
-    <configuration name="Kalkulacka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.ulohy.kalkulacka.Kalkulacka" />
+  <component name="RunManager" selected="Application.Birthday">
+    <configuration name="Birthday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.ulohy.birthday.Birthday" />
       <module name="ulohy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sk.ulohy.kalkulacka.*" />
+          <option name="PATTERN" value="sk.ulohy.birthday.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Birthday" />
         <item itemvalue="Application.zoradeniePrvkov" />
         <item itemvalue="Application.ParneNeparneCisla" />
         <item itemvalue="Application.Pyramida" />
         <item itemvalue="Application.PriemerZnamok" />
-        <item itemvalue="Application.Kalkulacka" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +129,9 @@
       <workItem from="1669107858164" duration="15930000" />
       <workItem from="1669130993404" duration="8521000" />
       <workItem from="1669141147442" duration="4464000" />
-      <workItem from="1669199575269" duration="11526000" />
+      <workItem from="1669199575269" duration="12166000" />
+      <workItem from="1669278195249" duration="500000" />
+      <workItem from="1669278715630" duration="7408000" />
     </task>
     <servers />
   </component>
