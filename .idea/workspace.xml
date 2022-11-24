@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2d6157-2a11-44b4-af15-a6b83a322287" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/ulohy/birthday/Birthday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/birthday/Birthday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/ulohy/znakyVeta/ZnakyVeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/znakyVeta/ZnakyVeta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,14 +38,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JavaAkademia/Projekty/IdeaProjects/GameStudioMaven",
+    "last_opened_file_path": "D:/JavaAkademia/Projekty/ulohy",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Birthday">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaAkademia\Projekty\ulohy\src\main\resources\templates\fragments" />
+      <recent name="D:\JavaAkademia\Projekty\ulohy\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ZnakyVeta">
     <configuration name="Birthday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sk.ulohy.birthday.Birthday" />
       <module name="ulohy" />
@@ -68,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriemerZnamok" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.ulohy.priemerZnamok.PriemerZnamok" />
+    <configuration name="Pyramida" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.ulohy.pyramida.Pyramida" />
       <module name="ulohy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sk.ulohy.priemerZnamok.*" />
+          <option name="PATTERN" value="sk.ulohy.pyramida.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pyramida" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.ulohy.pyramida.Pyramida" />
+    <configuration name="ZnakyVeta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.ulohy.znakyVeta.ZnakyVeta" />
       <module name="ulohy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sk.ulohy.pyramida.*" />
+          <option name="PATTERN" value="sk.ulohy.znakyVeta.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZnakyVeta" />
         <item itemvalue="Application.Birthday" />
         <item itemvalue="Application.zoradeniePrvkov" />
         <item itemvalue="Application.ParneNeparneCisla" />
         <item itemvalue="Application.Pyramida" />
-        <item itemvalue="Application.PriemerZnamok" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +142,8 @@
       <workItem from="1669141147442" duration="4464000" />
       <workItem from="1669199575269" duration="12166000" />
       <workItem from="1669278195249" duration="500000" />
-      <workItem from="1669278715630" duration="7408000" />
+      <workItem from="1669278715630" duration="10683000" />
+      <workItem from="1669304423046" duration="2021000" />
     </task>
     <servers />
   </component>
