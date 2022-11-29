@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d2d6157-2a11-44b4-af15-a6b83a322287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/ItemsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/upravaZnakovRetazec/GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/upravaZnakovRetazec/GFGsubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/upravaZnakovRetazec/UpravaZnakovRetazec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/upravaZnakovRetazec/VymenaZnakov.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/zapisCitanieSubor/CreateWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/zapisCitanieSubor/ZapisCitanieSUbor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/geeksProject/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/geeksProject/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pokusHeader/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pokusHeader/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pokusHeader/mainPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pokusHeader/nextPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/ulohy/znakyVeta/ZnakyVeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/ulohy/znakyVeta/ZnakyVeta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +35,26 @@
       <list>
         <option value="Class" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,22 +72,27 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/JavaAkademia/Projekty/ulohy",
-    "nodejs_package_manager_path": "npm"
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "09ddcdd61b40aed251b3d4d69ef449ee"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaAkademia\Projekty\ulohy\src\main\resources" />
+      <recent name="D:\JavaAkademia\Projekty\ulohy\src\main\resources\templates\pokusHeader" />
       <recent name="D:\JavaAkademia\Projekty\ulohy\src\main\resources\templates\fragments" />
       <recent name="D:\JavaAkademia\Projekty\ulohy\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZnakyVeta">
-    <configuration name="Birthday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.ulohy.birthday.Birthday" />
+  <component name="RunManager" selected="Application.ZapisCitanieSUbor">
+    <configuration name="CreateWriteFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.ulohy.zapisCitanieSubor.CreateWriteFile" />
       <module name="ulohy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sk.ulohy.birthday.*" />
+          <option name="PATTERN" value="sk.ulohy.zapisCitanieSubor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParneNeparneCisla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.ulohy.parneNeparneCisla.ParneNeparneCisla" />
+    <configuration name="GFGsubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.ulohy.upravaZnakovRetazec.GFGsubstring" />
       <module name="ulohy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sk.ulohy.parneNeparneCisla.*" />
+          <option name="PATTERN" value="sk.ulohy.upravaZnakovRetazec.VymenaZnakov" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pyramida" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.ulohy.pyramida.Pyramida" />
+    <configuration name="UpravaZnakovRetazec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.ulohy.upravaZnakovRetazec.UpravaZnakovRetazec" />
       <module name="ulohy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sk.ulohy.pyramida.*" />
+          <option name="PATTERN" value="sk.ulohy.upravaZnakovRetazec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZnakyVeta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.ulohy.znakyVeta.ZnakyVeta" />
+    <configuration name="VymenaZnakov" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.ulohy.upravaZnakovRetazec.VymenaZnakov" />
       <module name="ulohy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sk.ulohy.znakyVeta.*" />
+          <option name="PATTERN" value="sk.ulohy.upravaZnakovRetazec.VymenaZnakov" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zoradeniePrvkov" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sk.ulohy.zoradeniePrvkovVPoli.zoradeniePrvkov" />
+    <configuration name="ZapisCitanieSUbor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sk.ulohy.zapisCitanieSubor.ZapisCitanieSUbor" />
       <module name="ulohy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sk.ulohy.zoradeniePrvkovVPoli.*" />
+          <option name="PATTERN" value="sk.ulohy.zapisCitanieSubor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZnakyVeta" />
-        <item itemvalue="Application.Birthday" />
-        <item itemvalue="Application.zoradeniePrvkov" />
-        <item itemvalue="Application.ParneNeparneCisla" />
-        <item itemvalue="Application.Pyramida" />
+        <item itemvalue="Application.ZapisCitanieSUbor" />
+        <item itemvalue="Application.CreateWriteFile" />
+        <item itemvalue="Application.UpravaZnakovRetazec" />
+        <item itemvalue="Application.GFGsubstring" />
+        <item itemvalue="Application.VymenaZnakov" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +177,8 @@
       <workItem from="1669199575269" duration="12166000" />
       <workItem from="1669278195249" duration="500000" />
       <workItem from="1669278715630" duration="10683000" />
-      <workItem from="1669304423046" duration="2021000" />
+      <workItem from="1669304423046" duration="7908000" />
+      <workItem from="1669710980880" duration="15941000" />
     </task>
     <servers />
   </component>
