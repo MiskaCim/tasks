@@ -4,7 +4,8 @@ public class ZnakyVeta {
 
     public static void main(String[] args) {
 
-        String sentence = "Dnes na obed som mal 100g gnochi s 1 ks bryndzou, boli velmi dobre.";
+        String sentence = "123 123 AHoj som Miska!";
+//        String sentence = "Dnes na obed som mal 100g gnochi s 1 ks bryndzou, boli velmi dobre.";
         int vovelNr = 0, consonantsNr = 0, otherNr = 0, numberNr = 0;
 
 //  Skusit jednotlive samohlasky... ulozit do noveho pola

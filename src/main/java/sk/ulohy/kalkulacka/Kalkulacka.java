@@ -21,7 +21,7 @@ public class Kalkulacka {
             }
         } while (!"X".equals(line));
             System.out.println("End");
-            System.exit(0);
+//            System.exit(0); //nemusi byt lebo je to koniec
     }
 
     private static void run() {

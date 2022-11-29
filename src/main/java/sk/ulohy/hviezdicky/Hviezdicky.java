@@ -37,10 +37,10 @@ public class Hviezdicky {
 
         try {
             System.out.println("Enter number of stars in column: ");
-            rows = scanner.nextInt();
+            rows = Integer.parseInt(scanner.nextLine()); //namiesto nextInt -> to robi 2x riadok
 
             System.out.println("Enter number of stars in row: ");
-            col = scanner.nextInt();
+            col = Integer.parseInt(scanner.nextLine());
 
             System.out.println("Number of rows: " + rows + "\nNumber of columns: " + col + "\n");
 

@@ -57,8 +57,8 @@ public class PriemerZnamok {
         int sum = IntStream.of(numMarksArray).sum();
         System.out.println("Sum of elements in array: " + sum);
 
-        int avg = sum/numMarksArray.length;
-        System.out.println("Average of marks in array: " + avg);
+        float avg = (float)sum/ (float)numMarksArray.length;               // int treba pretypovat na float! -> (float)
+        System.out.printf("Average of marks in array: %.2f", avg);  // aby boli 2 desatinne miesta (ak by to bolo double -> tiez treba napisat %.2f
     }
 }
 

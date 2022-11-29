@@ -30,13 +30,13 @@ public class CenaPaliva {
 
         try {
             System.out.println("\nWhat is the distance of your journey [km]?");
-            distance = scanner.nextDouble();
+            distance = Double.parseDouble(scanner.nextLine());   //toto zle funguje scanner.nextDouble();
 
             System.out.println("What is the consumption of your car [l/100km]?");
-            consumption = scanner.nextDouble();
+            consumption = Double.parseDouble(scanner.nextLine());
 
             System.out.println("What is the price of fuel [€/l]?");
-            fuelPrice = scanner.nextDouble();
+            fuelPrice = Double.parseDouble(scanner.nextLine());
 
             result = (consumption * fuelPrice * distance) / 100;
             fuelVolume = (consumption * distance) /100;
